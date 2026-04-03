@@ -182,10 +182,10 @@ class PagoViewsTest(TestCase):
 
         _, pago_id = self.verifypagoCreation(self.tarjeta_data['numero'])
 
-        response = self.client.post(reverse('delpago'), {'id': pago_id})
+        # Realiza DELETE a /pago/<id>/
+        response = self.client.delete(reverse('pago', args=[pago_id]))
 
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
-        self.assertContains(response, "Pago eliminado correctamente")
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
 
     def test_035_delpago_invalid_post(self):
         """Test deletion of a non-existing pago."""
