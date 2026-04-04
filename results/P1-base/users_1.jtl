@@ -1,0 +1,51 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1775322061511,72,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,129,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,72,0,29
+1775322067109,160,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1450,1,1,http://127.0.0.1:28000/visaApp/pago/,145,0,0
+1775322067109,145,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1149,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,145,0,0
+1775322067256,13,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,13,0,0
+1775322073291,99,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,99,0,0
+1775322079279,15,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,0
+1775322084867,109,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1487,1,1,http://127.0.0.1:28000/visaApp/pago/,91,0,0
+1775322084867,91,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1186,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,91,0,0
+1775322084958,18,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,18,0,0
+1775322090006,91,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,91,0,0
+1775322096522,18,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,18,0,0
+1775322102589,85,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1502,1,1,http://127.0.0.1:28000/visaApp/pago/,65,0,0
+1775322102589,65,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1201,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,65,0,0
+1775322102654,20,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,20,0,0
+1775322108361,77,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,76,0,0
+1775322114238,15,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,0
+1775322119644,106,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1502,1,1,http://127.0.0.1:28000/visaApp/pago/,92,0,0
+1775322119644,92,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1201,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,92,0,0
+1775322119737,13,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,13,0,0
+1775322125816,87,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,87,0,3
+1775322131725,21,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,21,0,0
+1775322138319,86,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1462,1,1,http://127.0.0.1:28000/visaApp/pago/,67,0,0
+1775322138319,67,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1161,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,67,0,0
+1775322138387,18,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,18,0,0
+1775322143132,72,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,72,0,0
+1775322149318,22,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,22,0,0
+1775322155833,107,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1513,1,1,http://127.0.0.1:28000/visaApp/pago/,86,0,0
+1775322155833,86,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1212,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,86,0,0
+1775322155920,20,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,20,0,0
+1775322159673,85,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,85,0,0
+1775322165911,17,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,0
+1775322172881,109,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1517,1,1,http://127.0.0.1:28000/visaApp/pago/,93,0,0
+1775322172881,93,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1216,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,93,0,0
+1775322172975,15,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,15,0,0
+1775322176865,72,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,72,0,0
+1775322182029,18,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,18,0,0
+1775322187445,118,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1481,1,1,http://127.0.0.1:28000/visaApp/pago/,99,0,3
+1775322187445,99,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1180,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,99,0,3
+1775322187545,18,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,18,0,0
+1775322193118,83,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,83,0,0
+1775322199472,17,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,0
+1775322205435,117,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1480,1,1,http://127.0.0.1:28000/visaApp/pago/,97,0,0
+1775322205435,97,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1179,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,97,0,0
+1775322205533,19,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,19,0,0
+1775322211957,130,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,424,1,1,http://127.0.0.1:28000/visaApp/pago/,130,0,0
+1775322215923,19,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1549,225,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,19,0,0
+1775322221967,107,Post tarjeta,200,OK,P1-base 1-1,text,true,,1842,1509,1,1,http://127.0.0.1:28000/visaApp/pago/,92,0,0
+1775322221967,92,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,469,1208,1,1,http://127.0.0.1:28000/visaApp/tarjeta/,92,0,0
+1775322222059,15,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1373,301,1,1,http://127.0.0.1:28000/visaApp/pago/,14,0,0
+1775322229047,75,Post Pago,200,OK,P1-base 1-1,text,false,Test failed: text expected to contain /Pago Registrado/,479,427,1,1,http://127.0.0.1:28000/visaApp/pago/,74,0,0
