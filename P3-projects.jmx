@@ -5,12 +5,14 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="Common Logic" enabled="false"/>
       <hashTree>
-        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="contador">
-          <stringProp name="CounterConfig.start">1000</stringProp>
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="contador" enabled="true">
+          <stringProp name="CounterConfig.start">1</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">contador</stringProp>
@@ -18,7 +20,7 @@
           <boolProp name="CounterConfig.per_user">false</boolProp>
         </CounterConfig>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="filename">C:/Users/rj9co/Desktop/Ingenieria Informática/3º de Informática/2º Cuatri/SI II/Practicas/P3/SI2-Practica_3/P1-base/visaApp/management/commands/data.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames"></stringProp>
@@ -30,7 +32,7 @@
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Tarjeta From">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Tarjeta From" enabled="true">
           <stringProp name="HTTPSampler.domain">${host}</stringProp>
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.path">${entrypoint}/tarjeta/</stringProp>
@@ -43,7 +45,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">false</stringProp>
             <stringProp name="RegexExtractor.refname">csrf_token</stringProp>
             <stringProp name="RegexExtractor.regex">name=&quot;csrfmiddlewaretoken&quot; value=&quot;([^&quot;]+)&quot;</stringProp>
@@ -59,7 +61,7 @@
           <stringProp name="RandomTimer.range">500</stringProp>
         </GaussianRandomTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Post tarjeta">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Post tarjeta" enabled="true">
           <stringProp name="HTTPSampler.domain">${host}</stringProp>
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.path">${entrypoint}/tarjeta/</stringProp>
@@ -102,7 +104,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">X-CSRFToken</stringProp>
@@ -112,12 +114,12 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer">
+        <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
           <stringProp name="ConstantTimer.delay">3000</stringProp>
           <stringProp name="RandomTimer.range">500</stringProp>
         </GaussianRandomTimer>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Post Pago">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Post Pago" enabled="true">
           <stringProp name="HTTPSampler.domain">${host}</stringProp>
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.path">${entrypoint}/pago/</stringProp>
@@ -152,7 +154,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="-1705908393">Pago Registrado</stringProp>
             </collectionProp>
@@ -162,7 +164,7 @@
             <intProp name="Assertion.test_type">2</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager">
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">X-CSRFToken</stringProp>
@@ -259,7 +261,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="entrypoint" elementType="Argument">
               <stringProp name="Argument.name">entrypoint</stringProp>
@@ -279,7 +281,7 @@
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller">
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
           <collectionProp name="ModuleController.node_path">
             <stringProp name="-509356230">Plan de Pruebas</stringProp>
             <stringProp name="764597751">Test Plan</stringProp>
@@ -288,7 +290,7 @@
         </ModuleController>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="P1-base">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="P1-base" enabled="true">
         <boolProp name="ThreadGroup.delayedStart">true</boolProp>
         <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">10</intProp>
@@ -300,7 +302,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="entrypoint" elementType="Argument">
               <stringProp name="Argument.name">entrypoint</stringProp>
@@ -320,7 +322,7 @@
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller">
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
           <collectionProp name="ModuleController.node_path">
             <stringProp name="-509356230">Plan de Pruebas</stringProp>
             <stringProp name="764597751">Test Plan</stringProp>
@@ -329,9 +331,9 @@
         </ModuleController>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="P1-ws-frontend">
-        <intProp name="ThreadGroup.num_threads">10</intProp>
-        <intProp name="ThreadGroup.ramp_time">10</intProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="P1-ws-frontend" enabled="true">
+          <intProp name="ThreadGroup.num_threads">10</intProp>
+          <intProp name="ThreadGroup.ramp_time">10</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
@@ -340,7 +342,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="entrypoint" elementType="Argument">
               <stringProp name="Argument.name">entrypoint</stringProp>
@@ -349,7 +351,7 @@
             </elementProp>
             <elementProp name="port" elementType="Argument">
               <stringProp name="Argument.name">port</stringProp>
-              <stringProp name="Argument.value">38000</stringProp>
+              <stringProp name="Argument.value">39000</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="host" elementType="Argument">
@@ -360,7 +362,7 @@
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller">
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
           <collectionProp name="ModuleController.node_path">
             <stringProp name="-509356230">Plan de Pruebas</stringProp>
             <stringProp name="764597751">Test Plan</stringProp>
@@ -369,7 +371,7 @@
         </ModuleController>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="P1-rpc-frontend">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="P1-rpc-frontend" enabled="false">
         <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">10</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -380,7 +382,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="entrypoint" elementType="Argument">
               <stringProp name="Argument.name">entrypoint</stringProp>
@@ -400,7 +402,7 @@
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller">
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller" enabled="true">
           <collectionProp name="ModuleController.node_path">
             <stringProp name="-509356230">Plan de Pruebas</stringProp>
             <stringProp name="764597751">Test Plan</stringProp>
@@ -415,7 +417,7 @@
         <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
       </CookieManager>
       <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="samples" elementType="Argument">
             <stringProp name="Argument.name">samples</stringProp>

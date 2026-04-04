@@ -9,11 +9,5 @@
 ## git commit -m "Removed env from Git tracking and added to .gitignore"
 # Push the changes to the remote repository
 ## git push
-# use sqlite 3
-##DATABASE_SERVER_URL=sqlite:///db.sqlite3
-# use postgres
-DATABASE_SERVER_URL='postgres://alumnodb:alumnodb@192.168.1.34:15432/si2db'
-# The client does not need to store data in any database
-# so let us define a sqlite in orden to avoid warning messages
 DEBUG=True
 SECRET_KEY = 'django-insecure-alczftn)j1#$v%xmk@5j(n*px43c8kxgi_ua4%khc+t7g_)s9d'
