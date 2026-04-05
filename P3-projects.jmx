@@ -264,17 +264,17 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="entrypoint" elementType="Argument">
               <stringProp name="Argument.name">entrypoint</stringProp>
-              <stringProp name="Argument.value">restapiserver</stringProp>
+              <stringProp name="Argument.value">visaApp</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="port" elementType="Argument">
               <stringProp name="Argument.name">port</stringProp>
-              <stringProp name="Argument.value">28000</stringProp>
+              <stringProp name="Argument.value">8000</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="host" elementType="Argument">
               <stringProp name="Argument.name">host</stringProp>
-              <stringProp name="Argument.value">127.0.0.1</stringProp>
+              <stringProp name="Argument.value">192.168.199.131</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>

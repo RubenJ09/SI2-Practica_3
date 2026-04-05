@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1775390727817,33,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,32,0,18
+1775390727817,41,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,40,0,18
+1775390728507,14,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390729344,12,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390729432,15,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,1
+1775390729527,17,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,1
+1775390729563,14,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390729645,14,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390730178,12,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,2
+1775390730233,14,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,129,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390733483,94,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1464,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,11
+1775390733483,84,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1163,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,11
+1775390733569,8,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,8,0,1
+1775390733909,100,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1413,10,10,http://127.0.0.1:28000/visaApp/pago/,86,0,2
+1775390733909,86,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1112,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,86,0,2
+1775390733996,13,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,13,0,1
+1775390734078,110,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1468,10,10,http://127.0.0.1:28000/visaApp/pago/,94,0,3
+1775390734078,94,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1167,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,94,0,3
+1775390734172,16,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,2
+1775390734247,146,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1443,10,10,http://127.0.0.1:28000/visaApp/pago/,58,0,2
+1775390734247,58,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1142,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,58,0,2
+1775390734306,87,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,1
+1775390734286,116,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1437,10,10,http://127.0.0.1:28000/visaApp/pago/,94,0,2
+1775390734286,94,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1136,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,94,0,2
+1775390734381,21,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,21,0,1
+1775390734756,103,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1453,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,3
+1775390734756,87,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1152,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,3
+1775390734843,16,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390735781,95,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1424,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390735781,79,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1123,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,79,0,1
+1775390735860,16,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,1
+1775390735944,172,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1454,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,2
+1775390735944,87,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1153,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,2
+1775390736031,85,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,2
+1775390735960,164,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1416,10,10,http://127.0.0.1:28000/visaApp/pago/,144,0,1
+1775390735960,144,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1115,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,144,0,1
+1775390736104,20,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,20,0,1
+1775390736978,107,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1439,10,10,http://127.0.0.1:28000/visaApp/pago/,93,0,3
+1775390736978,93,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1138,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,93,0,3
+1775390737072,13,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,13,0,1
+1775390738908,85,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,3
+1775390739401,85,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,1
+1775390739533,73,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,73,0,1
+1775390740481,78,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,1
+1775390740751,60,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,60,0,2
+1775390741433,84,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390742150,82,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,82,0,2
+1775390742461,85,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,2
+1775390742475,149,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,149,0,2
+1775390742980,48,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,48,0,1
+1775390744936,15,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,2
+1775390746269,15,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,3
+1775390746457,13,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390747012,12,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,2
+1775390747037,12,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390747131,17,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,2
+1775390747136,22,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,21,0,1
+1775390747558,14,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390747683,13,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390747774,14,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390751206,89,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1477,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,2
+1775390751206,78,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1176,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,78,0,2
+1775390751285,10,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,10,0,1
+1775390751346,100,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1455,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,3
+1775390751346,85,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1154,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,85,0,3
+1775390751432,14,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390752092,94,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1516,10,10,http://127.0.0.1:28000/visaApp/pago/,75,0,2
+1775390752092,75,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1215,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,75,0,2
+1775390752168,18,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,18,0,1
+1775390753593,180,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1513,10,10,http://127.0.0.1:28000/visaApp/pago/,96,0,3
+1775390753593,96,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1212,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,96,0,3
+1775390753689,84,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390753632,152,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1495,10,10,http://127.0.0.1:28000/visaApp/pago/,129,0,2
+1775390753632,129,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1194,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,129,0,2
+1775390753762,22,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,22,0,1
+1775390753775,89,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1500,10,10,http://127.0.0.1:28000/visaApp/pago/,76,0,1
+1775390753775,76,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1199,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,76,0,1
+1775390753851,13,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,13,0,1
+1775390753926,77,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1495,10,10,http://127.0.0.1:28000/visaApp/pago/,63,0,2
+1775390753926,63,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1194,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,63,0,2
+1775390753989,14,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390754076,102,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1515,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,1
+1775390754076,88,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1214,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,88,0,1
+1775390754165,13,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,12,0,0
+1775390754201,95,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1519,10,10,http://127.0.0.1:28000/visaApp/pago/,77,0,1
+1775390754201,77,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1218,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,77,0,1
+1775390754279,17,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390754750,105,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1497,10,10,http://127.0.0.1:28000/visaApp/pago/,89,0,14
+1775390754750,89,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1196,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,89,0,14
+1775390754840,15,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,0
+1775390756870,84,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,2
+1775390758195,248,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,248,0,1
+1775390758277,250,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,250,0,1
+1775390758495,95,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,95,0,1
+1775390758743,90,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,2
+1775390759880,88,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,2
+1775390760035,67,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,67,0,1
+1775390760169,77,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,76,0,2
+1775390760331,76,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,75,0,1
+1775390760372,93,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,92,0,1
+1775390763233,13,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390764354,15,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,2
+1775390764500,14,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390764766,14,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390764825,9,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,9,0,1
+1775390764979,16,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,16,0,2
+1775390765129,15,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,1
+1775390766866,14,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390767079,10,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,10,0,0
+1775390767129,13,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390769072,150,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1486,10,10,http://127.0.0.1:28000/visaApp/pago/,75,0,1
+1775390769072,75,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1185,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,75,0,1
+1775390769148,74,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,74,0,0
+1775390769123,107,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1504,10,10,http://127.0.0.1:28000/visaApp/pago/,89,0,2
+1775390769123,89,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1203,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,89,0,2
+1775390769212,18,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,18,0,1
+1775390769888,94,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1490,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,2
+1775390769888,84,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1189,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,2
+1775390769972,10,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,10,0,1
+1775390770288,96,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1502,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,2
+1775390770288,85,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1201,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,85,0,2
+1775390770373,11,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,11,0,2
+1775390770659,100,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1512,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,2
+1775390770659,85,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1211,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,85,0,2
+1775390770745,14,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390770834,97,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1478,10,10,http://127.0.0.1:28000/visaApp/pago/,77,0,2
+1775390770834,77,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1177,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,77,0,2
+1775390770912,19,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,18,0,1
+1775390771405,74,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1507,10,10,http://127.0.0.1:28000/visaApp/pago/,58,0,1
+1775390771405,58,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1206,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,58,0,1
+1775390771463,16,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,1
+1775390771879,108,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1481,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,2
+1775390771879,87,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1180,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,2
+1775390771967,20,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,20,0,1
+1775390773050,96,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1488,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,1
+1775390773050,78,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1187,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,78,0,1
+1775390773128,18,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,18,0,1
+1775390773288,107,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1506,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,2
+1775390773288,90,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1205,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,90,0,2
+1775390773378,17,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,2
+1775390774995,81,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,2
+1775390775703,64,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,64,0,2
+1775390776418,85,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,3
+1775390776544,86,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,86,0,2
+1775390776771,74,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,74,0,1
+1775390778399,86,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,86,0,2
+1775390778505,72,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,72,0,1
+1775390778540,113,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,113,0,1
+1775390779674,78,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,2
+1775390779899,66,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,66,0,1
+1775390780714,16,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,16,0,1
+1775390780972,15,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,1
+1775390781149,13,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390781740,14,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390782217,17,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,2
+1775390782995,19,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,19,0,2
+1775390784895,15,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,1
+1775390785072,17,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,16,0,3
+1775390786336,16,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,16,0,2
+1775390786356,13,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390786726,165,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1515,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,1
+1775390786726,81,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1214,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,81,0,1
+1775390786807,84,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390786783,119,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1497,10,10,http://127.0.0.1:28000/visaApp/pago/,98,0,2
+1775390786783,98,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1196,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,98,0,2
+1775390786882,20,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,20,0,1
+1775390787086,105,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1458,10,10,http://127.0.0.1:28000/visaApp/pago/,89,0,3
+1775390787086,89,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1157,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,89,0,3
+1775390787176,15,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,0
+1775390787902,89,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1481,10,10,http://127.0.0.1:28000/visaApp/pago/,73,0,2
+1775390787902,73,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1180,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,73,0,2
+1775390787975,16,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390788344,104,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1516,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,2
+1775390788344,87,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1215,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,2
+1775390788431,17,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390789731,104,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1475,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,3
+1775390789731,87,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1174,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,3
+1775390789818,17,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,2
+1775390791875,99,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1475,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,2
+1775390791875,84,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1174,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,2
+1775390791959,15,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390792066,99,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1484,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,1
+1775390792066,81,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1183,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,81,0,1
+1775390792148,17,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390792156,85,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1495,10,10,http://127.0.0.1:28000/visaApp/pago/,75,0,1
+1775390792156,75,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1194,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,75,0,1
+1775390792231,10,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,10,0,1
+1775390792379,104,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1472,10,10,http://127.0.0.1:28000/visaApp/pago/,86,0,1
+1775390792379,86,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1171,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,86,0,1
+1775390792465,18,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,18,0,1
+1775390793441,80,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,80,0,2
+1775390793528,65,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,65,0,1
+1775390793749,79,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390793916,82,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,3
+1775390795334,76,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,76,0,2
+1775390795645,77,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,77,0,2
+1775390797926,84,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,2
+1775390798370,69,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,69,0,2
+1775390798420,79,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,0
+1775390798679,12,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,2
+1775390799234,13,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390799533,80,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,80,0,2
+1775390799730,15,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,1
+1775390800498,14,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390801788,13,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390802654,13,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390803855,17,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,2
+1775390803860,22,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,22,0,1
+1775390804865,101,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1459,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,2
+1775390804865,83,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1158,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,83,0,2
+1775390804949,17,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390805056,14,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390805326,14,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,3
+1775390805831,186,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1472,10,10,http://127.0.0.1:28000/visaApp/pago/,96,0,3
+1775390805831,96,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1171,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,96,0,3
+1775390805927,90,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,1
+1775390805918,106,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1480,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390805918,84,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1179,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,1
+1775390806003,21,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,21,0,1
+1775390806638,98,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1458,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,3
+1775390806638,84,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1157,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,3
+1775390806722,14,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390807834,90,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1499,10,10,http://127.0.0.1:28000/visaApp/pago/,75,0,3
+1775390807834,75,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1198,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,75,0,3
+1775390807910,14,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390808335,98,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1502,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390808335,84,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1201,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,1
+1775390808419,14,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390810078,87,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1485,10,10,http://127.0.0.1:28000/visaApp/pago/,74,0,2
+1775390810078,74,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1184,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,74,0,2
+1775390810153,12,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,12,0,1
+1775390810773,174,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,174,0,0
+1775390810745,214,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1517,10,10,http://127.0.0.1:28000/visaApp/pago/,139,0,2
+1775390810745,139,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1216,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,139,0,2
+1775390810885,74,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,74,0,1
+1775390810909,106,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,106,0,1
+1775390811279,70,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,70,0,1
+1775390811984,181,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1505,10,10,http://127.0.0.1:28000/visaApp/pago/,82,0,2
+1775390811984,82,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1204,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,82,0,2
+1775390812067,98,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,98,0,0
+1775390812026,145,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1469,10,10,http://127.0.0.1:28000/visaApp/pago/,122,0,1
+1775390812026,122,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1168,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,122,0,1
+1775390812149,22,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,22,0,1
+1775390813219,73,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,73,0,1
+1775390813820,83,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,1
+1775390814524,72,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,71,0,1
+1775390815578,14,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390816024,62,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,62,0,1
+1775390816530,66,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,66,0,1
+1775390817119,13,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,2
+1775390817219,10,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,9,0,1
+1775390817711,653,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,652,0,1
+1775390818573,53,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,53,0,1
+1775390819496,146,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,145,0,2
+1775390820460,16,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,16,0,2
+1775390820696,18,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,18,0,2
+1775390821777,169,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1521,10,10,http://127.0.0.1:28000/visaApp/pago/,132,0,1
+1775390821777,132,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1220,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,132,0,1
+1775390821909,37,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,37,0,1
+1775390822274,12,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,0
+1775390822683,94,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1474,10,10,http://127.0.0.1:28000/visaApp/pago/,80,0,3
+1775390822683,80,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1173,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,80,0,3
+1775390822763,14,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390823019,100,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1507,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,2
+1775390823019,84,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1206,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,2
+1775390823103,16,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,1
+1775390823716,14,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390824188,13,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390824691,110,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1464,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,1
+1775390824691,90,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1163,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,90,0,1
+1775390824782,19,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,19,0,0
+1775390826549,169,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,169,0,1
+1775390826536,191,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1485,10,10,http://127.0.0.1:28000/visaApp/pago/,91,0,1
+1775390826536,91,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1184,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,91,0,1
+1775390826627,100,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,100,0,1
+1775390826546,189,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1463,10,10,http://127.0.0.1:28000/visaApp/pago/,158,0,1
+1775390826546,158,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1162,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,158,0,1
+1775390826705,30,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,30,0,1
+1775390826906,109,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1475,10,10,http://127.0.0.1:28000/visaApp/pago/,94,0,3
+1775390826906,94,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1174,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,94,0,3
+1775390827000,15,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390827721,84,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,1
+1775390828255,60,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,60,0,2
+1775390828892,76,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,76,0,1
+1775390829158,101,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1472,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,2
+1775390829158,87,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1171,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,2
+1775390829246,13,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,13,0,0
+1775390830613,96,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1473,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,2
+1775390830613,78,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1172,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,78,0,2
+1775390830692,17,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,0
+1775390830790,83,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,2
+1775390831061,84,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390832726,175,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,175,0,1
+1775390833323,97,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1511,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,2
+1775390833323,83,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1210,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,83,0,2
+1775390833406,14,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390834120,13,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390834207,14,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390834487,77,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,77,0,2
+1775390835214,79,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390835334,13,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,2
+1775390835741,216,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,215,0,1
+1775390836642,16,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,2
+1775390837947,14,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390838647,12,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390839544,70,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,70,0,2
+1775390840127,96,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1517,10,10,http://127.0.0.1:28000/visaApp/pago/,75,0,1
+1775390840127,75,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1216,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,75,0,1
+1775390840202,21,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,21,0,1
+1775390840722,13,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390840943,96,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1508,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390840943,79,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1207,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,79,0,1
+1775390841023,16,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,1
+1775390841187,11,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,11,0,1
+1775390841244,86,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1479,10,10,http://127.0.0.1:28000/visaApp/pago/,71,0,2
+1775390841244,71,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1178,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,71,0,2
+1775390841315,15,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390842429,92,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1484,10,10,http://127.0.0.1:28000/visaApp/pago/,74,0,2
+1775390842429,74,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1183,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,74,0,2
+1775390842504,17,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390842930,17,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,2
+1775390843560,103,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1512,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,2
+1775390843560,79,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1211,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,79,0,2
+1775390843639,24,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,24,0,1
+1775390845644,14,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390846155,79,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390846381,103,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1510,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,1
+1775390846381,88,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1209,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,88,0,1
+1775390846470,14,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,0
+1775390846835,82,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,82,0,2
+1775390847328,102,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1452,10,10,http://127.0.0.1:28000/visaApp/pago/,89,0,2
+1775390847328,89,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1151,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,89,0,2
+1775390847417,13,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,13,0,1
+1775390847936,76,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,76,0,2
+1775390848407,115,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1499,10,10,http://127.0.0.1:28000/visaApp/pago/,95,0,2
+1775390848407,95,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1198,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,95,0,2
+1775390848502,20,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,20,0,1
+1775390849098,70,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,70,0,1
+1775390849211,86,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,1
+1775390850187,67,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1469,10,10,http://127.0.0.1:28000/visaApp/pago/,56,0,2
+1775390850187,56,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1168,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,56,0,2
+1775390850243,11,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,11,0,1
+1775390850814,94,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1513,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,2
+1775390850814,78,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1212,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,78,0,2
+1775390850893,15,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390852104,15,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390852437,6,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,6,0,1
+1775390852768,15,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390853411,77,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,76,0,1
+1775390853576,88,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,2
+1775390854907,17,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,2
+1775390855163,96,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,96,0,2
+1775390855441,14,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390855607,78,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,77,0,2
+1775390856768,55,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,55,0,1
+1775390858132,89,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1514,10,10,http://127.0.0.1:28000/visaApp/pago/,73,0,1
+1775390858132,73,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1213,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,73,0,1
+1775390858205,16,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390859126,103,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1496,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,2
+1775390859126,85,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1195,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,85,0,2
+1775390859212,17,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,0
+1775390859217,110,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1468,10,10,http://127.0.0.1:28000/visaApp/pago/,98,0,1
+1775390859217,98,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1167,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,98,0,1
+1775390859315,12,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,12,0,1
+1775390859530,14,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390860440,14,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390860675,105,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1462,10,10,http://127.0.0.1:28000/visaApp/pago/,92,0,1
+1775390860675,92,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1161,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,92,0,1
+1775390860768,12,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,12,0,0
+1775390861162,12,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,11,0,1
+1775390861874,15,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,15,0,2
+1775390862327,14,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390862804,94,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1487,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,2
+1775390862804,79,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1186,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,79,0,2
+1775390862883,15,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390863654,79,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390864567,82,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,82,0,1
+1775390864813,108,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1516,10,10,http://127.0.0.1:28000/visaApp/pago/,92,0,3
+1775390864813,92,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1215,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,92,0,3
+1775390864905,16,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,1
+1775390865657,85,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,2
+1775390865864,102,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1494,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,1
+1775390865864,87,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1193,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,87,0,1
+1775390865952,14,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390866022,85,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,1
+1775390866225,102,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1480,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,2
+1775390866225,90,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1179,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,90,0,2
+1775390866315,12,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,12,0,1
+1775390868162,105,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1479,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,3
+1775390868162,90,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1178,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,90,0,3
+1775390868252,15,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390868531,88,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,87,0,1
+1775390868476,157,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1461,10,10,http://127.0.0.1:28000/visaApp/pago/,73,0,2
+1775390868476,73,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1160,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,73,0,2
+1775390868550,83,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,0
+1775390869778,80,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,80,0,1
+1775390870071,12,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390870424,14,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,2
+1775390871404,14,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390871491,95,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,95,0,2
+1775390872935,12,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390873049,83,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,83,0,2
+1775390873669,81,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,2
+1775390873992,17,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,17,0,1
+1775390873997,102,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,102,0,1
+1775390875627,111,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1485,10,10,http://127.0.0.1:28000/visaApp/pago/,95,0,2
+1775390875627,95,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1184,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,95,0,2
+1775390875722,16,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,16,0,1
+1775390876340,102,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1491,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,2
+1775390876340,88,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1190,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,88,0,2
+1775390876429,13,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,13,0,1
+1775390876933,108,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1463,10,10,http://127.0.0.1:28000/visaApp/pago/,91,0,1
+1775390876933,91,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1162,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,91,0,1
+1775390877024,17,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390877025,25,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,25,0,0
+1775390877769,14,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390878269,169,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1508,10,10,http://127.0.0.1:28000/visaApp/pago/,134,0,2
+1775390878269,134,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1207,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,134,0,2
+1775390878404,34,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,34,0,1
+1775390879194,14,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390879485,23,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,22,0,1
+1775390879583,16,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,16,0,2
+1775390880207,89,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,1
+1775390880814,67,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1504,10,10,http://127.0.0.1:28000/visaApp/pago/,57,0,3
+1775390880814,57,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1203,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,57,0,3
+1775390880871,10,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,9,0,1
+1775390882022,120,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,120,0,1
+1775390882056,233,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1486,10,10,http://127.0.0.1:28000/visaApp/pago/,202,0,1
+1775390882056,202,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1185,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,202,0,1
+1775390882258,31,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,31,0,1
+1775390883747,126,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,126,0,1
+1775390883712,175,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1466,10,10,http://127.0.0.1:28000/visaApp/pago/,86,0,2
+1775390883712,86,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1165,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,86,0,2
+1775390883799,88,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,88,0,1
+1775390884136,80,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,80,0,2
+1775390885220,61,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1495,10,10,http://127.0.0.1:28000/visaApp/pago/,53,0,1
+1775390885220,53,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1194,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,53,0,1
+1775390885273,8,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,8,0,1
+1775390885991,103,Get Tarjeta From,200,OK,P1-base 1-8,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,103,0,1
+1775390885985,116,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1506,10,10,http://127.0.0.1:28000/visaApp/pago/,90,0,1
+1775390885985,90,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1205,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,90,0,1
+1775390886076,25,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,24,0,1
+1775390886261,105,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1515,10,10,http://127.0.0.1:28000/visaApp/pago/,85,0,2
+1775390886261,85,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1214,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,85,0,2
+1775390886347,19,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,18,0,1
+1775390886747,78,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,78,0,2
+1775390887930,14,Get Tarjeta From,200,OK,P1-base 1-2,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,2
+1775390888084,80,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,2
+1775390889447,13,Get Tarjeta From,200,OK,P1-base 1-9,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390889830,83,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,82,0,1
+1775390890352,13,Get Tarjeta From,200,OK,P1-base 1-10,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390891684,80,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,1
+1775390891720,59,Get Tarjeta From,200,OK,P1-base 1-7,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,59,0,1
+1775390891890,73,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,73,0,1
+1775390892620,87,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,86,0,2
+1775390893259,94,Post tarjeta,200,OK,P1-base 1-8,text,true,,1836,1487,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,2
+1775390893259,81,Post tarjeta-0,302,Found,P1-base 1-8,text,true,,466,1186,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,81,0,2
+1775390893340,13,Post tarjeta-1,200,OK,P1-base 1-8,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,12,0,1
+1775390893682,13,Get Tarjeta From,200,OK,P1-base 1-4,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,12,0,1
+1775390894056,95,Post tarjeta,200,OK,P1-base 1-2,text,true,,1836,1457,10,10,http://127.0.0.1:28000/visaApp/pago/,81,0,1
+1775390894056,81,Post tarjeta-0,302,Found,P1-base 1-2,text,true,,466,1156,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,81,0,1
+1775390894137,14,Post tarjeta-1,200,OK,P1-base 1-2,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390895688,175,Post tarjeta,200,OK,P1-base 1-9,text,true,,1836,1468,10,10,http://127.0.0.1:28000/visaApp/pago/,84,0,1
+1775390895688,84,Post tarjeta-0,302,Found,P1-base 1-9,text,true,,466,1167,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,84,0,1
+1775390895772,91,Post tarjeta-1,200,OK,P1-base 1-9,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,91,0,1
+1775390895753,117,Post tarjeta,200,OK,P1-base 1-10,text,true,,1836,1498,10,10,http://127.0.0.1:28000/visaApp/pago/,97,0,1
+1775390895753,97,Post tarjeta-0,302,Found,P1-base 1-10,text,true,,466,1197,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,97,0,1
+1775390895850,20,Post tarjeta-1,200,OK,P1-base 1-10,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,19,0,1
+1775390895885,14,Get Tarjeta From,200,OK,P1-base 1-5,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,14,0,1
+1775390898268,14,Get Tarjeta From,200,OK,P1-base 1-1,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390898290,13,Get Tarjeta From,200,OK,P1-base 1-3,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,13,0,1
+1775390898451,11,Get Tarjeta From,200,OK,P1-base 1-6,text,true,,1546,225,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,11,0,1
+1775390898480,95,Post tarjeta,200,OK,P1-base 1-7,text,true,,1836,1486,10,10,http://127.0.0.1:28000/visaApp/pago/,79,0,2
+1775390898480,79,Post tarjeta-0,302,Found,P1-base 1-7,text,true,,466,1185,10,10,http://127.0.0.1:28000/visaApp/tarjeta/,79,0,2
+1775390898559,16,Post tarjeta-1,200,OK,P1-base 1-7,text,true,,1370,301,10,10,http://127.0.0.1:28000/visaApp/pago/,15,0,1
+1775390899588,223,Post Pago,200,OK,P1-base 1-8,text,true,,661,445,10,10,http://127.0.0.1:28000/visaApp/pago/,223,0,1
+1775390900563,60,Post Pago,200,OK,P1-base 1-2,text,true,,661,445,9,9,http://127.0.0.1:28000/visaApp/pago/,60,0,0
+1775390900912,94,Post Pago,200,OK,P1-base 1-9,text,true,,661,445,8,8,http://127.0.0.1:28000/visaApp/pago/,94,0,1
+1775390900856,165,Post tarjeta,200,OK,P1-base 1-4,text,true,,1836,1499,7,7,http://127.0.0.1:28000/visaApp/pago/,79,0,3
+1775390900856,79,Post tarjeta-0,302,Found,P1-base 1-4,text,true,,466,1198,7,7,http://127.0.0.1:28000/visaApp/tarjeta/,79,0,3
+1775390900935,86,Post tarjeta-1,200,OK,P1-base 1-4,text,true,,1370,301,7,7,http://127.0.0.1:28000/visaApp/pago/,86,0,1
+1775390901495,114,Post tarjeta,200,OK,P1-base 1-5,text,true,,1836,1464,7,7,http://127.0.0.1:28000/visaApp/pago/,100,0,1
+1775390901495,100,Post tarjeta-0,302,Found,P1-base 1-5,text,true,,466,1163,7,7,http://127.0.0.1:28000/visaApp/tarjeta/,100,0,1
+1775390901595,14,Post tarjeta-1,200,OK,P1-base 1-5,text,true,,1370,301,7,7,http://127.0.0.1:28000/visaApp/pago/,14,0,1
+1775390901730,81,Post Pago,200,OK,P1-base 1-10,text,true,,661,445,7,7,http://127.0.0.1:28000/visaApp/pago/,80,0,2
+1775390903762,111,Post tarjeta,200,OK,P1-base 1-1,text,true,,1836,1467,6,6,http://127.0.0.1:28000/visaApp/pago/,94,0,2
+1775390903762,94,Post tarjeta-0,302,Found,P1-base 1-1,text,true,,466,1166,6,6,http://127.0.0.1:28000/visaApp/tarjeta/,94,0,2
+1775390903856,17,Post tarjeta-1,200,OK,P1-base 1-1,text,true,,1370,301,6,6,http://127.0.0.1:28000/visaApp/pago/,17,0,1
+1775390904363,153,Post Pago,200,OK,P1-base 1-7,text,true,,661,445,6,6,http://127.0.0.1:28000/visaApp/pago/,152,0,1
+1775390904340,195,Post tarjeta,200,OK,P1-base 1-6,text,true,,1836,1494,5,5,http://127.0.0.1:28000/visaApp/pago/,97,0,2
+1775390904340,97,Post tarjeta-0,302,Found,P1-base 1-6,text,true,,466,1193,5,5,http://127.0.0.1:28000/visaApp/tarjeta/,97,0,2
+1775390904437,98,Post tarjeta-1,200,OK,P1-base 1-6,text,true,,1370,301,5,5,http://127.0.0.1:28000/visaApp/pago/,98,0,1
+1775390904765,92,Post tarjeta,200,OK,P1-base 1-3,text,true,,1836,1465,5,5,http://127.0.0.1:28000/visaApp/pago/,75,0,2
+1775390904765,75,Post tarjeta-0,302,Found,P1-base 1-3,text,true,,466,1164,5,5,http://127.0.0.1:28000/visaApp/tarjeta/,75,0,2
+1775390904841,16,Post tarjeta-1,200,OK,P1-base 1-3,text,true,,1370,301,5,5,http://127.0.0.1:28000/visaApp/pago/,16,0,0
+1775390906704,88,Post Pago,200,OK,P1-base 1-5,text,true,,661,445,5,5,http://127.0.0.1:28000/visaApp/pago/,88,0,2
+1775390907276,81,Post Pago,200,OK,P1-base 1-4,text,true,,661,445,4,4,http://127.0.0.1:28000/visaApp/pago/,81,0,2
+1775390910291,89,Post Pago,200,OK,P1-base 1-6,text,true,,661,445,3,3,http://127.0.0.1:28000/visaApp/pago/,89,0,2
+1775390910304,153,Post Pago,200,OK,P1-base 1-1,text,true,,661,445,2,2,http://127.0.0.1:28000/visaApp/pago/,153,0,1
+1775390911079,78,Post Pago,200,OK,P1-base 1-3,text,true,,661,445,1,1,http://127.0.0.1:28000/visaApp/pago/,77,0,2
