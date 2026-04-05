@@ -30,6 +30,20 @@ Fichero de trabajo para anotar las medidas de la curva de productividad.
 | 12 | 10 | 1500000 | 3.2223242624905346 | 0.00 | Ejecucion limpia |
 | 15 | 10 | 1600000 | 4.028662591450641 | 0.00 | Ejecucion limpia |
 
+## Ejercicio 7 (gunicorn 2 workers)
+
+### Proyecto: P1-base 2 workers
+
+| Usuarios | Samples | idStart | Throughput | Error % | Observaciones |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 10 | 31000000 | 0.287462055008739 | 0.00 | Ejecucion limpia |
+| 3 | 10 | 31100000 | 0.806490636643709 | 0.00 | Ejecucion limpia |
+| 5 | 10 | 31200000 | 1.40725354768619 | 0.00 | Ejecucion limpia |
+| 7 | 10 | 31300000 | 1.874946430102 | 0.00 | Ejecucion limpia |
+| 10 | 10 | 31400000 | 2.72305941171024 | 0.00 | Ejecucion limpia |
+| 12 | 10 | 31500000 | 3.31158724376594 | 0.00 | Ejecucion limpia |
+| 15 | 10 | 31600000 | 4.12380203550868 | 0.00 | Ejecucion limpia |
+
 ### Notas
 
 - Guardar una captura o referencia del resultado final de la gráfica.
